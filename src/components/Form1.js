@@ -12,12 +12,13 @@ const Form1 = () => {
 
     const saveDescriptionInput = (e) => {
              console.log(e.target.value)
-        setUserInput(e.target.value)
+        descriptionInput(e.target.value)
 
     }
     const submitForm1 = (e) => {
         e.preventDefault()
         console.log(userInput)
+        console.log(descriptionInput)
 
     }
     return (
