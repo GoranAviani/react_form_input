@@ -5,6 +5,7 @@ const Form1 = () => {
 
     const saveUserInput = (e) => {
         console.log(e.target.value)
+        setUserInput(e.target.value)
     }
     const submitForm1 = (e) => {
         e.preventDefault()
