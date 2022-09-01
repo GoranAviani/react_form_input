@@ -2,8 +2,7 @@ import React, {useState} from "react";
 
 const Form1 = () => {
     const [userInput, setUserInput] = useState()
-        const [descriptionInput, setDescriptionInput] = useState()
-
+    const [descriptionInput, setDescriptionInput] = useState()
 
     const saveUserInput = (e) => {
         console.log(e.target.value)
@@ -11,7 +10,7 @@ const Form1 = () => {
     }
 
     const saveDescriptionInput = (e) => {
-             console.log(e.target.value)
+        console.log(e.target.value)
         setDescriptionInput(e.target.value)
 
     }
@@ -23,12 +22,12 @@ const Form1 = () => {
     }
     return (
         <>
-        form 1
+            form 1
             <form onSubmit={submitForm1}>
-               <label>Input 1</label>
+                <label>Input 1</label>
                 <input type="text" value={userInput} onChange={saveUserInput}/>
-<br/>
-                               <label>Input 2</label>
+                <br/>
+                <label>Input 2</label>
                 <input type="text" value={descriptionInput} onChange={saveDescriptionInput}/>
                 <button type="submit">Save form 1º</button>
             </form>
