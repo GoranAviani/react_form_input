@@ -17,6 +17,8 @@ const Form1 = () => {
         e.preventDefault()
         console.log(userInput)
         console.log(descriptionInput)
+        setUserInput('')
+        setDescriptionInput('')
     }
 
     return (
