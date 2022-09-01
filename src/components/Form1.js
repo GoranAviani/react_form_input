@@ -29,6 +29,8 @@ const Form1 = () => {
                 <label>Input 2</label>
                 <input type="text" value={descriptionInput} onChange={saveDescriptionInput}/>
                 <br/>
+                {userInput && <p> user input populated</p>
+
                 <button type="submit">Save form 1º</button>
             </form>
         </>
