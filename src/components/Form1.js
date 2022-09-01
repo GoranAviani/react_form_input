@@ -12,7 +12,7 @@ const Form1 = () => {
 
     const saveDescriptionInput = (e) => {
              console.log(e.target.value)
-        descriptionInput(e.target.value)
+        setDescriptionInput(e.target.value)
 
     }
     const submitForm1 = (e) => {
