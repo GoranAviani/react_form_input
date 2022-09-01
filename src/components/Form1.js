@@ -18,7 +18,7 @@ const Form1 = () => {
             <form onSubmit={submitForm1}>
                <label>Input 1</label>
                 <input type="text" value={userInput} onChange={saveUserInput}/>
-
+<br/>
                                <label>Input 1</label>
                 <input type="text" value={userInput} onChange={saveUserInput}/>
                 <button type="submit">Save form 1º</button>
