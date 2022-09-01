@@ -15,8 +15,13 @@ const Form1 = () => {
     }
     const submitForm1 = (e) => {
         e.preventDefault()
-        console.log(userInput)
-        console.log(descriptionInput)
+        console.log({userInput})
+        console.log({descriptionInput})
+        const formData = {
+            userInput: userInput,
+            descriptionInput: descriptionInput
+        }
+        console.log({formData})
         setUserInput('')
         setDescriptionInput('')
     }
