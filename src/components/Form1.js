@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 const Form1 = () => {
     const [userInput, setUserInput] = useState()
-        const [userDescription, setDescriptionInput] = useState()
+        const [descriptionInput, setDescriptionInput] = useState()
 
 
     const saveUserInput = (e) => {
